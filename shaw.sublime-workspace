@@ -1,0 +1,964 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eq_q",
+				"eq_qH"
+			],
+			[
+				"Q",
+				"Q_bar"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"whi",
+				"whiteside"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nlayout: page\ntitle: Lei Xu - Research\n---\n<h3 style=\"background-color:rgb(224,224,224)\">\n<p style=\"margin:2pt 0in 12pt\"><span style=\"font-size:medium;font-family:Times New Roman\">What Makes Geeks Tick? A Study of Stack Overflow Careers, </span><span style=\"font-size:medium;font-family:Times New Roman;font-weight:normal\"><i>with Tingting Nian (NYU Stern) and Luis Cabral (NYU Stern)</i></span></p>\n</h3>\n<font face=\"times new roman, serif\">Online communities such as Stack Overflow provide an ideal setting for studying incentives on voluntary contribution to public goods. One particularly intriguing question is, to what extent, such contribution is driven by career concerns. We estimate the magnitude of the impact of career concerns on contribution to Stack Overflow using a set of users who experience a change in job seeking status, a proxy for a change in career concerns. Contributors who change their job seeking status from active to passive, on average, experience a 43% drop in activity, measured as the number of answers provided in a month. By exploring plausible mechanisms that might explain such changes in contribution level such as time constraints and controlling for individual characteristics, our results demonstrate robustness across different model specifications.</font>\n\n\n<h3 style=\"background-color:rgb(224,224,224)\">\n<p style=\"margin:2pt 0in 12pt\"><span style=\"font-size:medium;font-family:Times New Roman\">Platform Competition with Local Network Effects, <A HREF=\"https://www.dropbox.com/s/iy0wcb8wx4oyawu/Platform%20Competition%20with%20Local%20Network%20Effects.pdf\"><B>\npdf download</B></A><A HREF=\"https://www.dropbox.com/s/iy0wcb8wx4oyawu/Platform%20Competition%20with%20Local%20Network%20Effects.pdf\"><B>\nOnline Appendix</B></A></p> \n</h3>\n<font face=\"times new roman, serif\">This paper presents a dynamic model of price competition between two networks in which consumers value local network effects. Specifically, each consumer’s utility level depends on the number of her neighbors in the same network. Consumers in different neighborhoods choose their networks, and each network competes for new customers in different neighborhoods with a homogeneous entry price. I characterize equilibrium market structure with a combination of analytical and numerical solutions, and com- pare them to results from network effect models that are global, in which a consumer benefits from all other consumers in the same network. I provide sufficient conditions such that one firm dominants both local markets, as well as sufficient conditions that each firm is the dominant one in each local market. </font>\n\n\n<h3 style=\"background-color:rgb(224,224,224)\">\n<p style=\"margin:2pt 0in 12pt\"><span style=\"font-size:medium;font-family:Times New Roman\">Multi-Market Contact in Chinese Airlines Industry, <i>with Wenbo Wang (HKUST) and Lai Jiang (UBC)</i></p>\n</h3>",
+			"file": "Research.html",
+			"file_size": 2752,
+			"file_write_time": 130577086920000000,
+			"settings":
+			{
+				"buffer_size": 2891,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"apple",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"IPython Notebook",
+				"Open IPython Notebook"
+			],
+			[
+				"ipython",
+				"Open IPython Notebook"
+			],
+			[
+				"ipyt",
+				"Open IPython Notebook"
+			],
+			[
+				"latextoo",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"ipy",
+				"Open IPython Notebook"
+			],
+			[
+				"ip",
+				"Open IPython Notebook"
+			],
+			[
+				"open",
+				"Open IPython Notebook"
+			],
+			[
+				"Open IPython Notebook",
+				"Open IPython Notebook"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"view as",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"highlight",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"html",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"export",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"fortran",
+				"Set Syntax: MinimalFortran"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"fortra",
+				"Set Syntax: Fortran - Modern"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 56.0,
+		"history":
+		[
+			"data",
+			"python",
+			"close(1)",
+			"close()",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts"
+	],
+	"file_history":
+	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts/2013-10-23-Design-Deploy-Service.md",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/CNAME",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
+		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/Gemfile",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/Title: My First Review.html",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Retrive_Files.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Transfer.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_IPs.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Connect.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/gtk-firefox.sh",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/StackOverflow.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Slides/StackOverflow.tex",
+		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_Connect.py",
+		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_VNC.AppleScript",
+		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_Retrive_Files.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_VNC.AppleScript",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Retrive_Files.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Transfer.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_IPs.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/EC2_PN.sh",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/EC2_PN_Main.sh",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/CCSOC.pem",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_VNC",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/tt.scpt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/temp3/2.txt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_15/7.txt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_07_02/t8/43842.txt",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect.scpt",
+		"/Users/Titanic/Dropbox/CCSOC/Database/convert_xml_sqlite.py",
+		"/Users/Titanic/Dropbox/CCSOC/Database/Comments.xml",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/Spain.py",
+		"/Users/Titanic/Dropbox/CCSOC/Database/xml2sql.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/python-uinput-master/README",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect_VNC",
+		"/Users/Titanic/Desktop/Download/t1.scpt",
+		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/AppleScript-Sublime-Text/snippets/Finder.Open location.sublime-snippet",
+		"/Users/Titanic/Desktop/Download/tt.scpt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/new_VNC/4652.txt",
+		"/Users/Titanic/Documents/tt.html",
+		"/Users/Titanic/Desktop/Download/selenium-scraper.rb",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect",
+		"/Users/Titanic/Desktop/ttt.txt",
+		"/Users/Titanic/Documents/GitHub/temp/tt.txt",
+		"/private/etc/sshd_config",
+		"/Users/Titanic/Desktop/Download/SO_Crawler.py",
+		"/Users/Titanic/Documents/GitHub/temp/163.txt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_15/43278.txt",
+		"/Users/Titanic/Dropbox/CCSOC/Web_Crawler.py",
+		"/Users/Titanic/Documents/Temp/SOC_140610_text/11.txt",
+		"/Users/Titanic/Documents/Temp/SOC_140610_text/293.txt",
+		"/Users/Titanic/Documents/Temp/SOC_140610_text/40.txt",
+		"/Users/Titanic/Documents/Temp/SOC_140610_text/3.txt",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_11/47928.txt",
+		"/Users/Titanic/Documents/GitHub/p_12.html",
+		"/Users/Titanic/Documents/GitHub/p_main_only.html",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/SO_Crawler.py",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SO_html/ppl2810.html",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/SO_Crawler2.py",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/gtk-firefox.sh",
+		"/Users/Titanic/Dropbox/CCSOC/AWS/gtk-firefox-bashrc.sh",
+		"/Users/Titanic/Documents/GitHub/Data/SO/SO_html/ppl6.html",
+		"/Users/Titanic/Documents/GitHub/Others_Tingting_HW3.ipynb",
+		"/Users/Titanic/Documents/GitHub/Data/SO/gtk-firefox.sh",
+		"/Users/Titanic/Vagrantfile",
+		"/Users/Titanic/Desktop/Download/tt.sql",
+		"/Users/Titanic/Desktop/so1.html",
+		"/Users/Titanic/Desktop/so2.html",
+		"/Users/Titanic/Desktop/Download/dbclass-script-files/BasicRecursion.sql",
+		"/Users/Titanic/Dropbox/2Projects/StackOverflow/StackOverflow.tex",
+		"/Users/Titanic/Desktop/tt.tex",
+		"/Users/Titanic/Desktop/Download/Later/Resume/Lei Xu/Lei Xu CV.tex",
+		"/Users/Titanic/Dropbox/2Projects/stackoverflow/StackOverflow.bbl",
+		"/Users/Titanic/Dropbox/5MMC/Paper/MMCPD_Slides.tex",
+		"/Users/Titanic/Documents/GitHub/Slot_Control/Slot_Control.tex",
+		"/Users/Titanic/Documents/GitHub/Data/get_rita-master/get_transtat_data.py",
+		"/Users/Titanic/Documents/GitHub/get_rita-master/Performance/get_transtat_data.py",
+		"/Users/Titanic/Documents/GitHub/get_rita-master/t1.py",
+		"/Users/Titanic/Documents/GitHub/get_rita-master/get_transtat_data.py",
+		"/Users/Titanic/Documents/GitHub/get_rita-master/t2.py",
+		"/Users/Titanic/Documents/GitHub/get_rita-master/post.py",
+		"/Users/Titanic/Desktop/Download/net-internals-log.json",
+		"/Users/Titanic/Documents/GitHub/google-trend-api/pyGTrends.py",
+		"/Users/Titanic/Documents/GitHub/google-trend-api/download.py",
+		"/Users/Titanic/Documents/GitHub/pyGoogleTrendsCsvDownloader.py",
+		"/Users/Titanic/Documents/GitHub/t3.py",
+		"/Users/Titanic/Documents/GitHub/HelloWorld.java",
+		"/Users/Titanic/Documents/GitHub/GoogleTrendsDemo.java",
+		"/Users/Titanic/Dropbox/1Research/t2.py",
+		"/Users/Titanic/Dropbox/3Classes/IO2/PS3/PS3_Lei.tex",
+		"/Users/Titanic/Documents/GitHub/Data/Rust/src/config.gpr",
+		"/Users/Titanic/Documents/GitHub/Data/ttt.py",
+		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Slides/NESN_Slides.tex",
+		"/Users/Titanic/Documents/GitHub/Data/clean_data.py",
+		"/Users/Titanic/Dropbox/5MMC/Paper/MMCPD.tex",
+		"/Users/Titanic/Dropbox/5MMC/Paper/t3.tex",
+		"/Users/Titanic/Dropbox/5MMC/Shared_Airline/paper/MMCPD.tex",
+		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Paper/Platform Competition with Local Network Effects.tex",
+		"/Users/Titanic/Dropbox/5MMC/Paper/shared/MMCPD.tex",
+		"/Users/Titanic/Documents/t1.py",
+		"/Users/Titanic/Dropbox/5MMC/Slides/tt.tex",
+		"/Users/Titanic/Desktop/Download/ZhangAnming_UBC CV Mar 2014-web.ashx",
+		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Tables/table1.tex",
+		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Tables/tt.tex",
+		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/HW5_Python.py",
+		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/NYU_Bryan_HW5.py",
+		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/HW5_Latex.tex",
+		"/Users/Titanic/Desktop/Download/histogram_demo_extended.py",
+		"/Users/Titanic/Documents/GitHub/DB1B/DB1B_make_sample.py",
+		"/Users/Titanic/Desktop/Download/temp.py",
+		"/Users/Titanic/Desktop/Download/bigdatapython.py",
+		"/Users/Titanic/Desktop/Download/compare_speed.py",
+		"/Users/Titanic/Documents/GitHub/Logit.py",
+		"/Users/Titanic/Dropbox/5MMC/Slides/MMCPD_Slides_WW.tex",
+		"/Users/Titanic/Dropbox/5MMC/Slides/temp.py",
+		"/Users/Titanic/Desktop/Download/Logit.py",
+		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW4_Local/HW4_Python.py",
+		"/Users/Titanic/Dropbox/5MMC/Slides/MMCPD_Slides.tex",
+		"/Users/Titanic/Documents/GitHub/temp.txt",
+		"/Users/Titanic/Desktop/Download/NYU_Bryan_HW2.py",
+		"/Users/Titanic/Desktop/Download/NYU_Bryan_HW3.py",
+		"/Users/Titanic/Desktop/Download/numexpr-2.2.2/site.cfg",
+		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW2_Local/HW2_Latex.tex",
+		"/Users/Titanic/Dropbox/3Classes/IO2/PS/PS1_Lei.tex",
+		"/Users/Titanic/Dropbox/3Classes/IO2/Papers/Borenstein Rose 94.tex",
+		"/Users/Titanic/Dropbox/3Classes/IO2/Papers/Research.tex",
+		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"df",
+			"54",
+			"54.88.171.221",
+			"/Users/Titanic/Dropbox/8CCSOC/AWS",
+			"sty",
+			"aea",
+			":",
+			"54.",
+			"--s",
+			"--set",
+			"54.",
+			"amazonaws.com",
+			"\n",
+			", ",
+			"54",
+			"she",
+			"--set",
+			"54.",
+			"54",
+			"54.",
+			"Brooks Travis",
+			"travis",
+			"id",
+			"105441",
+			"sleep(1)",
+			"ubuntu@",
+			"--set IP1",
+			"--",
+			"Hub/SO_",
+			"SO_Crawler",
+			"ubuntu@",
+			"54.88.",
+			"ubuntu@",
+			".",
+			"54.",
+			"/CCSOC",
+			"u'",
+			"54.88.116.144",
+			".",
+			"ipynb",
+			"54",
+			".compute-1.amazonaws.com",
+			"Post",
+			"'Vote",
+			"u'",
+			"df",
+			")",
+			"1",
+			"print df",
+			"12",
+			"==12",
+			"11",
+			"archivefile1",
+			"54.",
+			"54",
+			".",
+			"54.",
+			".",
+			"\"",
+			"54.",
+			"54",
+			"54.88",
+			"	",
+			",    ",
+			"',",
+			"\":'",
+			" : ",
+			"dep",
+			"S1",
+			"	",
+			" ",
+			"\n",
+			"	",
+			"\n",
+			"('",
+			",",
+			",\n",
+			"000",
+			"\n",
+			"DATEPART(YEAR, p.CreationDate)",
+			"Year",
+			"PATHs",
+			"calc_file_first_id",
+			"last",
+			"first",
+			"instance",
+			"t",
+			",",
+			"profile",
+			". ",
+			"SO-",
+			"row Id=",
+			"~/SO",
+			"SO",
+			"54.",
+			"54.8",
+			"1 using",
+			"set IP1",
+			".",
+			"54.",
+			"54.88",
+			".",
+			"compute-1.amazonaws.com",
+			"SO_Crawler",
+			"IP",
+			"myList",
+			"ls",
+			" ",
+			"/SO",
+			"54.",
+			"54.86",
+			"\n",
+			".compute-1.amazonaws.com",
+			",",
+			"ANATHOMY",
+			"creationdat",
+			"year",
+			"	",
+			"in browser.page_source",
+			"df",
+			"f1",
+			"time_change",
+			"Active",
+			"time_change",
+			"remove_inactive",
+			"months_active",
+			"df1)",
+			"yerr=yerror"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			" %\\pause",
+			"",
+			"L",
+			"",
+			"L",
+			" ",
+			"",
+			"display.Pretty",
+			"core.display",
+			"displaypub.pretty",
+			"displaypub.display_html",
+			"IPython.kernel.zmq.displayhook",
+			"''",
+			"``",
+			"\\nonumber\\\\",
+			"\\pause",
+			"bimodal",
+			"segment and",
+			"region $D$",
+			"region $C$",
+			"region $B$",
+			"region $A$",
+			"region A",
+			"}\n",
+			"segment $B$",
+			"segment $A$",
+			"(-x_{AB})",
+			"(-x_{BA})",
+			"(x_{BA})",
+			"(x_{AB})",
+			"j",
+			"i",
+			"```",
+			"j_",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								306
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Research.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1762,
+								1762
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "shaw.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ret",
+				"ST_Retrive_Files.py"
+			],
+			[
+				"ips",
+				"ST_IPs.py"
+			],
+			[
+				"tra",
+				"ST_Transfer.py"
+			],
+			[
+				"conn",
+				"ST_Connect.py"
+			],
+			[
+				"ip",
+				"ST_IPs.py"
+			],
+			[
+				"con",
+				"ST_Connect.py"
+			],
+			[
+				"tran",
+				"ST_Transfer.py"
+			],
+			[
+				"retr",
+				"ST_Retrive_Files.py"
+			],
+			[
+				"vn",
+				"ST_VNC.AppleScript"
+			],
+			[
+				"vpn",
+				"ST_VNC.AppleScript"
+			],
+			[
+				"re",
+				"ST_Retrive_Files.py"
+			],
+			[
+				"vnc",
+				"ST_VNC.AppleScript"
+			],
+			[
+				"trans",
+				"ST_Transfer.py"
+			],
+			[
+				"",
+				"~/Documents/GitHub/MMCPD.tex"
+			],
+			[
+				"plat",
+				"Paper/Platform Competition with Local Network Effects.tex"
+			],
+			[
+				"proo",
+				"LemmaProp/temp_proof.tex"
+			],
+			[
+				"proof",
+				"LemmaProp/proof1.tex"
+			],
+			[
+				"slide",
+				"Slides/NESN_Slides.tex"
+			],
+			[
+				"tabl",
+				"Tables/table1.tex"
+			],
+			[
+				"table",
+				"Tables/table1.tex"
+			],
+			[
+				"slid",
+				"Slides/NESN_Slides.tex"
+			],
+			[
+				"dis",
+				"LemmaProp/python/distn.py"
+			],
+			[
+				"platfor",
+				"Paper/Platform Competition with Local Network Effects.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/8CCSOC/AWS/CCSOC.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

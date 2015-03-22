@@ -23,45 +23,13 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 199,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2218,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Research.html",
-			"settings":
-			{
-				"buffer_size": 2891,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 187.0,
 		"selected_items":
 		[
-			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"apple",
-				"Set Syntax: AppleScript"
-			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -69,6 +37,22 @@
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"apple",
+				"Set Syntax: AppleScript"
 			],
 			[
 				"IPython Notebook",
@@ -180,149 +164,149 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts"
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw"
 	],
 	"file_history":
 	[
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/StackOverflow.tex",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts/2013-10-23-Design-Deploy-Service.md",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/CNAME",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
-		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/Gemfile",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/Title: My First Review.html",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Retrive_Files.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Transfer.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_IPs.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/ST_Connect.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/AWS/gtk-firefox.sh",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Slides/StackOverflow.tex",
-		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_Connect.py",
-		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_VNC.AppleScript",
-		"/Users/Titanic/Dropbox/8CCSOC/AWS/ST_Retrive_Files.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_VNC.AppleScript",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Retrive_Files.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Transfer.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_IPs.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/EC2_PN.sh",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/EC2_PN_Main.sh",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/CCSOC.pem",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_VNC",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/tt.scpt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/temp3/2.txt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_15/7.txt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_07_02/t8/43842.txt",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect.scpt",
-		"/Users/Titanic/Dropbox/CCSOC/Database/convert_xml_sqlite.py",
-		"/Users/Titanic/Dropbox/CCSOC/Database/Comments.xml",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/Spain.py",
-		"/Users/Titanic/Dropbox/CCSOC/Database/xml2sql.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/python-uinput-master/README",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect_VNC",
-		"/Users/Titanic/Desktop/Download/t1.scpt",
-		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/AppleScript-Sublime-Text/snippets/Finder.Open location.sublime-snippet",
-		"/Users/Titanic/Desktop/Download/tt.scpt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/new_VNC/4652.txt",
-		"/Users/Titanic/Documents/tt.html",
-		"/Users/Titanic/Desktop/Download/selenium-scraper.rb",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/ST_Connect",
-		"/Users/Titanic/Desktop/ttt.txt",
-		"/Users/Titanic/Documents/GitHub/temp/tt.txt",
-		"/private/etc/sshd_config",
-		"/Users/Titanic/Desktop/Download/SO_Crawler.py",
-		"/Users/Titanic/Documents/GitHub/temp/163.txt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_15/43278.txt",
-		"/Users/Titanic/Dropbox/CCSOC/Web_Crawler.py",
-		"/Users/Titanic/Documents/Temp/SOC_140610_text/11.txt",
-		"/Users/Titanic/Documents/Temp/SOC_140610_text/293.txt",
-		"/Users/Titanic/Documents/Temp/SOC_140610_text/40.txt",
-		"/Users/Titanic/Documents/Temp/SOC_140610_text/3.txt",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SOC_14_06_11/47928.txt",
-		"/Users/Titanic/Documents/GitHub/p_12.html",
-		"/Users/Titanic/Documents/GitHub/p_main_only.html",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/SO_Crawler.py",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SO_html/ppl2810.html",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/SO_Crawler2.py",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/gtk-firefox.sh",
-		"/Users/Titanic/Dropbox/CCSOC/AWS/gtk-firefox-bashrc.sh",
-		"/Users/Titanic/Documents/GitHub/Data/SO/SO_html/ppl6.html",
-		"/Users/Titanic/Documents/GitHub/Others_Tingting_HW3.ipynb",
-		"/Users/Titanic/Documents/GitHub/Data/SO/gtk-firefox.sh",
-		"/Users/Titanic/Vagrantfile",
-		"/Users/Titanic/Desktop/Download/tt.sql",
-		"/Users/Titanic/Desktop/so1.html",
-		"/Users/Titanic/Desktop/so2.html",
-		"/Users/Titanic/Desktop/Download/dbclass-script-files/BasicRecursion.sql",
-		"/Users/Titanic/Dropbox/2Projects/StackOverflow/StackOverflow.tex",
-		"/Users/Titanic/Desktop/tt.tex",
-		"/Users/Titanic/Desktop/Download/Later/Resume/Lei Xu/Lei Xu CV.tex",
-		"/Users/Titanic/Dropbox/2Projects/stackoverflow/StackOverflow.bbl",
-		"/Users/Titanic/Dropbox/5MMC/Paper/MMCPD_Slides.tex",
-		"/Users/Titanic/Documents/GitHub/Slot_Control/Slot_Control.tex",
-		"/Users/Titanic/Documents/GitHub/Data/get_rita-master/get_transtat_data.py",
-		"/Users/Titanic/Documents/GitHub/get_rita-master/Performance/get_transtat_data.py",
-		"/Users/Titanic/Documents/GitHub/get_rita-master/t1.py",
-		"/Users/Titanic/Documents/GitHub/get_rita-master/get_transtat_data.py",
-		"/Users/Titanic/Documents/GitHub/get_rita-master/t2.py",
-		"/Users/Titanic/Documents/GitHub/get_rita-master/post.py",
-		"/Users/Titanic/Desktop/Download/net-internals-log.json",
-		"/Users/Titanic/Documents/GitHub/google-trend-api/pyGTrends.py",
-		"/Users/Titanic/Documents/GitHub/google-trend-api/download.py",
-		"/Users/Titanic/Documents/GitHub/pyGoogleTrendsCsvDownloader.py",
-		"/Users/Titanic/Documents/GitHub/t3.py",
-		"/Users/Titanic/Documents/GitHub/HelloWorld.java",
-		"/Users/Titanic/Documents/GitHub/GoogleTrendsDemo.java",
-		"/Users/Titanic/Dropbox/1Research/t2.py",
-		"/Users/Titanic/Dropbox/3Classes/IO2/PS3/PS3_Lei.tex",
-		"/Users/Titanic/Documents/GitHub/Data/Rust/src/config.gpr",
-		"/Users/Titanic/Documents/GitHub/Data/ttt.py",
-		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Slides/NESN_Slides.tex",
-		"/Users/Titanic/Documents/GitHub/Data/clean_data.py",
-		"/Users/Titanic/Dropbox/5MMC/Paper/MMCPD.tex",
-		"/Users/Titanic/Dropbox/5MMC/Paper/t3.tex",
-		"/Users/Titanic/Dropbox/5MMC/Shared_Airline/paper/MMCPD.tex",
-		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Paper/Platform Competition with Local Network Effects.tex",
-		"/Users/Titanic/Dropbox/5MMC/Paper/shared/MMCPD.tex",
-		"/Users/Titanic/Documents/t1.py",
-		"/Users/Titanic/Dropbox/5MMC/Slides/tt.tex",
-		"/Users/Titanic/Desktop/Download/ZhangAnming_UBC CV Mar 2014-web.ashx",
-		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Tables/table1.tex",
-		"/Users/Titanic/Dropbox/0Networks/Dynamic_Price_Competition_with_Local_Network_Effects/Tables/tt.tex",
-		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/HW5_Python.py",
-		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/NYU_Bryan_HW5.py",
-		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW5_Local/HW5_Latex.tex",
-		"/Users/Titanic/Desktop/Download/histogram_demo_extended.py",
-		"/Users/Titanic/Documents/GitHub/DB1B/DB1B_make_sample.py",
-		"/Users/Titanic/Desktop/Download/temp.py",
-		"/Users/Titanic/Desktop/Download/bigdatapython.py",
-		"/Users/Titanic/Desktop/Download/compare_speed.py",
-		"/Users/Titanic/Documents/GitHub/Logit.py",
-		"/Users/Titanic/Dropbox/5MMC/Slides/MMCPD_Slides_WW.tex",
-		"/Users/Titanic/Dropbox/5MMC/Slides/temp.py",
-		"/Users/Titanic/Desktop/Download/Logit.py",
-		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW4_Local/HW4_Python.py",
-		"/Users/Titanic/Dropbox/5MMC/Slides/MMCPD_Slides.tex",
-		"/Users/Titanic/Documents/GitHub/temp.txt",
-		"/Users/Titanic/Desktop/Download/NYU_Bryan_HW2.py",
-		"/Users/Titanic/Desktop/Download/NYU_Bryan_HW3.py",
-		"/Users/Titanic/Desktop/Download/numexpr-2.2.2/site.cfg",
-		"/Users/Titanic/Dropbox/3Classes/Bryan/Local/HW2_Local/HW2_Latex.tex",
-		"/Users/Titanic/Dropbox/3Classes/IO2/PS/PS1_Lei.tex",
-		"/Users/Titanic/Dropbox/3Classes/IO2/Papers/Borenstein Rose 94.tex",
-		"/Users/Titanic/Dropbox/3Classes/IO2/Papers/Research.tex",
-		"/Users/Titanic/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg_Main_Table.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_Job_Avg.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/CCSOC_Module.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_M_Avg_DD.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_M_Avg_FD.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/tt.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/Lei.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Main_M_Avg.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Slide_Job_Avg.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/stylefiles/slidestyle.sty",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_SO_SIBO/Data/SIBO_Edu_Level.csv",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/SO_Decriptive.ipynb",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/tt.snm",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/tt.nav",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/AWS/tt.js",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/AWS/tt.html",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/tt.sql",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Paper.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/AWS/CCSOC.sublime-workspace",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/CCSOC_Abstract_Long.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/AWS/CCSOC.pem",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/ref.bib",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Robust_Job_Avg_Edu.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Figures/DD_Demo.tikz",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Data",
+		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/Figures/DD_Demo.tikz",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/CCSOC.sublime-workspace",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/SO_Old_Code/SO_Crawler_Config.ipynb",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper_TT (tingting nian's conflicted copy 2015-01-10).tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper_TT.fls",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper_TT.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/Slides/StackOverflow_Paper.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/Lei.toc",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/Lei.snm",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Slides/Lei.nav",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/48732_files/angular-locale_en-us.min.js",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Latex_Packages.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_M_Avg_Graph.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_M_Avg_Groups_Graph.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_M_Avg.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Main_Job_Avg.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/_Appendix.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/CCSOC.sublime-project",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/M_Avg_Prom.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/t1.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/PATH.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Main_Job_Avg.do",
+		"/Users/Titanic/tt.txt",
+		"/Users/Titanic/.bash_profile",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Robust.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_SameQTags.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_M_Avg.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_DiffQTags.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg_Main.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_Job_Avg_Edu.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC.sublime-project",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Main_M_Avg.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Main_M_Avg_Graph.do",
+		"/Users/Titanic/Box Sync/list.txt",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_STATA_DDD.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_STATA_Others.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_STATA_Robust.do",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/BLP/Nevo/rc_dc.m",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Dep_Var_x/Main_M_Avg.do",
+		"/Users/Titanic/Documents/Data/Rust/src/nfxp.gpr",
+		"/Users/Titanic/Box Sync/DB1BCp_LInks.txt",
+		"/Users/Titanic/Dropbox/1res_main_projects/iPython/Airline_Projects/HSPP_Apt_HHI_T100.ipynb",
+		"/Users/Titanic/Desktop/tt.txt",
+		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/_Appendix.tex",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/README",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/shaw.sublime-project",
+		"/Users/Titanic/Documents/Data/Airline_DB1B/DB1B_Mkt_2010_2.zip",
+		"/Users/Titanic/Desktop/Adobe Acrobat XI Pro 11.0.0 Multilanguage Mac OS X [ChingLiu]/Crack-OSX/install.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Python.py",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Latex.tex",
+		"/Users/Titanic/Desktop/t1.py",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/NESN/Dynamic_Price_Competition_with_Local_Network_Effects/NESN.sublime-workspace",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Paper.aux",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP.m",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/logit.m",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP_WSS.m",
+		"/Volumes/Storage/Software/MAC Software/Adobe/Adobe Acrobat XI Pro 11.0.0 Multilanguage Mac OS X [ChingLiu]/Crack-OSX/install.txt",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Main_M_Avg_FD.do",
+		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/Tables/Main_M_Avg_FD.tex",
+		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/CCSOC_Paper.tex",
+		"/Users/Titanic/Documents/GitHub/SO_STATA_Avg_Job.do",
+		"/Users/Titanic/Documents/GitHub/SO_Data_SQL_Extract.ipynb",
+		"/Users/Titanic/Desktop/Download/pyipopt/setup.py",
+		"/Users/Titanic/Desktop/Download/pyipopt/src/hook.h",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/BLP/Nevo/gmmobj.m",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/JC_Month_Avg_DD.tex",
+		"/Users/Titanic/Desktop/Crash2",
+		"/Users/Titanic/Desktop/crash3",
+		"/Users/Titanic/Documents/GitHub/Data/Rust/README.txt",
+		"/System/Library/Filesystems/fusefs_txantfs.fs/Support/uninstall-package.sh",
+		"/Users/Titanic/Documents/GitHub/SO_STATA_Others.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/temp/CCSOC_Paper_old.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/TT/CCSOC_Paper_TT.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/t3.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Slides/slidesJanuary2015.tex",
+		"/Users/Titanic/Documents/GitHub/Data/Airline_DB1B/DB1B_make_sample.py",
+		"/Users/Titanic/Desktop/Crash.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/1_Logit_Do.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do",
+		"/Users/Titanic/Desktop/createMATLABShortcut.m",
+		"/Users/Titanic/Desktop/Download/Comparison-Programming-Languages-Economics-master/RBC_Python.py",
+		"/Users/Titanic/Documents/GitHub/Data/Rust/dat/README",
+		"/Users/Titanic/Documents/GitHub/Data/Rust/dat/d309.asc",
+		"/Users/Titanic/Desktop/Matlab/Crack_Help.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Others Code/blphw/blphw.py",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Robin/results.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Robin/mydiary.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Python/Untitled0.ipynb",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Data/1logit.do",
+		"/Users/Titanic/Documents/GitHub/t3.txt",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Results/PS1_Lei_Xu.tex",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Results/tt.tex",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Results/t1.tex",
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Results/Logit_Elast_Own.tex",
+		"/Users/Titanic/Dropbox/5Classes/NYU Stern/IO_Robin/PS1/Data/1logit.do",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_Job_Avg_Rep.tex",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Slides_Lei.tex",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Slides_Cabral.tex"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"<open folders>"
 		]
 	},
 	"find_state":
@@ -330,134 +314,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"df",
-			"54",
-			"54.88.171.221",
-			"/Users/Titanic/Dropbox/8CCSOC/AWS",
-			"sty",
-			"aea",
-			":",
-			"54.",
-			"--s",
-			"--set",
-			"54.",
-			"amazonaws.com",
-			"\n",
-			", ",
-			"54",
-			"she",
-			"--set",
-			"54.",
-			"54",
-			"54.",
-			"Brooks Travis",
-			"travis",
-			"id",
-			"105441",
-			"sleep(1)",
-			"ubuntu@",
-			"--set IP1",
-			"--",
-			"Hub/SO_",
-			"SO_Crawler",
-			"ubuntu@",
-			"54.88.",
-			"ubuntu@",
-			".",
-			"54.",
-			"/CCSOC",
-			"u'",
-			"54.88.116.144",
-			".",
-			"ipynb",
-			"54",
-			".compute-1.amazonaws.com",
-			"Post",
-			"'Vote",
-			"u'",
-			"df",
-			")",
-			"1",
-			"print df",
-			"12",
-			"==12",
-			"11",
-			"archivefile1",
-			"54.",
-			"54",
-			".",
-			"54.",
-			".",
-			"\"",
-			"54.",
-			"54",
-			"54.88",
-			"	",
-			",    ",
-			"',",
-			"\":'",
-			" : ",
-			"dep",
-			"S1",
-			"	",
-			" ",
-			"\n",
-			"	",
-			"\n",
-			"('",
-			",",
-			",\n",
-			"000",
-			"\n",
-			"DATEPART(YEAR, p.CreationDate)",
-			"Year",
-			"PATHs",
-			"calc_file_first_id",
-			"last",
-			"first",
-			"instance",
-			"t",
-			",",
-			"profile",
+			"881",
+			"\\mbox{\\ \\ \\ as of \\today} ",
+			"maxv",
+			"me more from you",
+			"I can get more feedback",
+			". Let me know",
+			"would be great to get",
+			"clean",
+			"yMaxV",
+			"AvgV",
+			"avgV",
 			". ",
-			"SO-",
-			"row Id=",
-			"~/SO",
-			"SO",
-			"54.",
-			"54.8",
-			"1 using",
-			"set IP1",
-			".",
-			"54.",
-			"54.88",
-			".",
-			"compute-1.amazonaws.com",
-			"SO_Crawler",
-			"IP",
-			"myList",
-			"ls",
-			" ",
-			"/SO",
-			"54.",
-			"54.86",
-			"\n",
-			".compute-1.amazonaws.com",
+			"{12}",
+			"tau=-10",
+			"11",
+			"12",
+			"10",
+			"12",
+			"11",
+			"t_0-11",
+			"{12}",
+			"-10",
+			"_IPerXVGA_",
+			"tt00",
+			"_IPerXVG",
+			"_IPerXVGA_",
+			"_IPeriod_",
+			"vga",
+			"tikz",
+			"_IPeriod_",
+			"_IPeriod",
+			"tt00",
+			"+",
+			"t00",
+			"_IPeri",
+			"od_",
+			"_IPeriod_",
+			"_",
+			"_IPeriod",
+			"-",
+			"align",
+			"alpha_i",
+			"align",
+			"    \\begin{figure}",
+			"* ",
+			"marker",
+			"v: Votes from Answers;",
+			"s.\")",
+			"label",
+			"VGA",
+			"career_profile_sample",
+			",height",
+			"xtreg",
+			"i(SO)",
+			"Edu_Level",
+			"df[df.Rep",
+			"df[df",
+			"print ",
+			"df_Avg",
+			"(SO)",
+			"-11",
+			"x,",
+			"x",
+			"A_E",
+			"Prom.d",
+			"eststo: ",
+			", ",
+			"=",
+			"P_SOC",
 			",",
-			"ANATHOMY",
-			"creationdat",
-			"year",
-			"	",
-			"in browser.page_source",
+			" =",
+			"-12",
+			"*VGA",
+			"i.P",
+			"End",
+			"0",
+			"\n",
+			"HHI",
+			"HHI_Pax_YM",
+			"Seats",
+			"  	  ",
+			",",
+			" ",
+			", ",
+			"Seats",
 			"df",
-			"f1",
-			"time_change",
-			"Active",
-			"time_change",
-			"remove_inactive",
-			"months_active",
-			"df1)",
-			"yerr=yerror"
+			"<",
+			": ",
+			", ",
+			"cells",
+			"material",
+			"family",
+			"obe",
+			"Nm",
+			"Cp",
+			"Seats",
+			"HHI",
+			"HHI_Seats_YM",
+			"Seats",
+			"HHI_YM_Seats",
+			"DepPer",
+			"Seats",
+			"HHI_YM",
+			"2013",
+			"wef",
+			"ODPax",
+			"ApD",
+			"T",
+			"20",
+			"=",
+			"gped =",
+			"gped",
+			"15",
+			"Rp",
+			"Tk",
+			"DB1B",
+			"3",
+			"Mkt",
+			"'",
+			"Nm",
+			", ",
+			"https",
+			"2",
+			"Cp",
+			"Seg",
+			"Mkt",
+			"Seg",
+			"'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -465,6 +449,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"SOC_Profile",
 			"",
 			" %\\pause",
 			"",
@@ -511,278 +496,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								198,
-								199
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								306
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Research.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2891,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1034,
-								1034
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -813,7 +534,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 189.0
+		"height": 237.0
 	},
 	"output.find_results":
 	{
@@ -822,7 +543,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -831,8 +552,132 @@
 		"selected_items":
 		[
 			[
+				"ccsoc_pap",
+				"Paper/CCSOC_Paper.tex"
+			],
+			[
+				"main_job",
+				"Code/Stata_SO/Main_Job_Avg.do"
+			],
+			[
+				"_reg",
+				"Paper/Beta/_Reg_Main.tex"
+			],
+			[
+				"modu",
+				"Code/CCSOC_Module.py"
+			],
+			[
+				"mod",
+				"Code/CCSOC_Module.py"
+			],
+			[
+				"main_m_av",
+				"Code/Stata_SO/Main_M_Avg_DD.do"
+			],
+			[
+				"main_m_a",
+				"Code/Stata_SO/Main_M_Avg_FD.do"
+			],
+			[
+				"slide_j",
+				"Code/Stata_SO/Slide_Job_Avg.do"
+			],
+			[
+				"tt",
+				"Paper/Slides/tt.tex"
+			],
+			[
+				"lei",
+				"Paper/Slides/Lei.tex"
+			],
+			[
+				"ccsoc_paper",
+				"Paper/CCSOC_Paper.tex"
+			],
+			[
+				"ccs",
+				"Others/Shared_Nian_Cabral/Paper/CCSOC_Paper.tex"
+			],
+			[
+				"main_m",
+				"Code/Stata_SO/Main_M_Avg_DD.do"
+			],
+			[
+				"_re",
+				"Paper/Beta/_Reg.tex"
+			],
+			[
+				"main_m_fd",
+				"Code/Stata_SO/Main_M_Avg_FD.do"
+			],
+			[
+				"dd",
+				"Paper/Figures/DD_Demo.tikz"
+			],
+			[
+				"ccsoc_pa",
+				"Paper/CCSOC_Paper.tex"
+			],
+			[
+				"ccsoc",
+				"Code/CCSOC_Module.py"
+			],
+			[
+				"main",
+				"Code/Stata_SO/Main_Job_Avg.do"
+			],
+			[
+				"main_",
+				"Paper/Beta/_Reg_Main_Table.tex"
+			],
+			[
+				"robust",
+				"Beta/_Robust.tex"
+			],
+			[
+				"reg",
+				"Beta/_Reg_Main_Table.tex"
+			],
+			[
+				"pap",
+				"CCSOC_Paper.tex"
+			],
+			[
+				"res",
+				"Research.html"
+			],
+			[
+				"aper",
+				"CCSOC_Paper.tex"
+			],
+			[
+				"ip",
+				"ST_IPs.py"
+			],
+			[
 				"ret",
 				"ST_Retrive_Files.py"
+			],
+			[
+				"conn",
+				"ST_Connect.py"
+			],
+			[
+				"tran",
+				"ST_Transfer.py"
+			],
+			[
+				"re",
+				"ST_Retrive_Files.py"
+			],
+			[
+				"v",
+				"ST_VNC.AppleScript"
+			],
+			[
+				"con",
+				"ST_Connect.py"
 			],
 			[
 				"ips",
@@ -840,22 +685,6 @@
 			],
 			[
 				"tra",
-				"ST_Transfer.py"
-			],
-			[
-				"conn",
-				"ST_Connect.py"
-			],
-			[
-				"ip",
-				"ST_IPs.py"
-			],
-			[
-				"con",
-				"ST_Connect.py"
-			],
-			[
-				"tran",
 				"ST_Transfer.py"
 			],
 			[
@@ -869,10 +698,6 @@
 			[
 				"vpn",
 				"ST_VNC.AppleScript"
-			],
-			[
-				"re",
-				"ST_Retrive_Files.py"
 			],
 			[
 				"vnc",
@@ -932,7 +757,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/1Res_Main_Projects/CCSOC/AWS/CCSOC.sublime-project"
+				"~/Dropbox/1Res_Main_Projects/CCSOC/CCSOC.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -953,7 +778,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_width": 141.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

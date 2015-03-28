@@ -25,9 +25,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 187.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -168,6 +173,8 @@
 	],
 	"file_history":
 	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg_Main_Table.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_Job_Avg.do",
@@ -293,9 +300,7 @@
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Results/Logit_Elast_Own.tex",
 		"/Users/Titanic/Dropbox/5Classes/NYU Stern/IO_Robin/PS1/Data/1logit.do",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/Robust_Job_Avg_Rep.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Slides_Lei.tex",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Slides_Cabral.tex"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Slides_Lei.tex"
 	],
 	"find":
 	{
@@ -314,6 +319,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"CIREQ Lunch Seminar",
 			"881",
 			"\\mbox{\\ \\ \\ as of \\today} ",
 			"maxv",
@@ -440,8 +446,7 @@
 			"Cp",
 			"Seg",
 			"Mkt",
-			"Seg",
-			"'"
+			"Seg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -540,6 +545,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "shaw.sublime-project",
 	"replace":
 	{
@@ -549,8 +555,21 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"res",
+				"Research.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
 			[
 				"ccsoc_pap",
 				"Paper/CCSOC_Paper.tex"
@@ -642,10 +661,6 @@
 			[
 				"pap",
 				"CCSOC_Paper.tex"
-			],
-			[
-				"res",
-				"Research.html"
 			],
 			[
 				"aper",
@@ -753,6 +768,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -765,6 +781,7 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],

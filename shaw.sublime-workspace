@@ -173,8 +173,8 @@
 	],
 	"file_history":
 	[
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg_Main_Table.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_Job_Avg.do",
@@ -304,7 +304,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -559,16 +559,16 @@
 		"selected_items":
 		[
 			[
-				"res",
-				"Research.html"
+				"ind",
+				"index.html"
 			],
 			[
 				"rese",
 				"Research.html"
 			],
 			[
-				"ind",
-				"index.html"
+				"res",
+				"Research.html"
 			],
 			[
 				"inde",

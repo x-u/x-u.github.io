@@ -169,7 +169,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw"
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts"
 	],
 	"file_history":
 	[
@@ -558,6 +559,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"in",
+				"index.html"
+			],
 			[
 				"ind",
 				"index.html"

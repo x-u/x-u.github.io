@@ -177,6 +177,7 @@
 	],
 	"file_history":
 	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/XNCJuly2015.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
@@ -186,7 +187,6 @@
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/font-awesome.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/fontawesome-webfont.eot",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/FontAwesome.otf",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Others/Shared_Nian_Cabral/Paper/CCSOC_Paper.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Beta/_Reg_Main_Table.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Code/Stata_SO/Main_Job_Avg.do",
@@ -308,7 +308,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -563,6 +563,10 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"Research.html"
+			],
+			[
 				"inde",
 				"index.html"
 			],
@@ -580,10 +584,6 @@
 			],
 			[
 				"rese",
-				"Research.html"
-			],
-			[
-				"res",
 				"Research.html"
 			],
 			[

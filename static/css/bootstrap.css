@@ -256,7 +256,7 @@ html {
 }
 body {
   font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -408,11 +408,11 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 21px;
+  font-size: 30px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 28px;
 }
 h5,
 .h5 {

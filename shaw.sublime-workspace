@@ -175,13 +175,14 @@
 	],
 	"file_history":
 	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/CNAME",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/less/application.less",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/bootstrap.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
@@ -301,12 +302,11 @@
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/1_Logit_Do.do",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do",
-		"/Users/Titanic/Desktop/createMATLABShortcut.m",
-		"/Users/Titanic/Desktop/Download/Comparison-Programming-Languages-Economics-master/RBC_Python.py"
+		"/Users/Titanic/Desktop/createMATLABShortcut.m"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -321,6 +321,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"www.",
+			"www.le",
+			".com",
+			"JMP.pdf",
+			"example.com",
 			"page-navbar-container",
 			"line-height",
 			"navbar",
@@ -443,12 +448,7 @@
 			"material",
 			"family",
 			"obe",
-			"Nm",
-			"Cp",
-			"Seats",
-			"HHI",
-			"HHI_Seats_YM",
-			"Seats"
+			"Nm"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -561,16 +561,20 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"index.html"
+			],
+			[
+				"res",
+				"Research.html"
+			],
+			[
 				"app",
 				"static/less/application.less"
 			],
 			[
 				"defa",
 				"_layouts/default.html"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"rese",
@@ -587,10 +591,6 @@
 			[
 				"boot",
 				"static/css/bootstrap.css"
-			],
-			[
-				"res",
-				"Research.html"
 			],
 			[
 				"inde",

@@ -170,20 +170,26 @@
 	"expanded_folders":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_includes",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
 	],
 	"file_history":
 	[
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/XNCJuly2015.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/application.css",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/CNAME",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/less/application.less",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/bootstrap.css",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/bootstrap.css",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/XNCJuly2015.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/js/jquery.js",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/post.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/font-awesome.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/fontawesome-webfont.eot",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/FontAwesome.otf",
@@ -296,19 +302,11 @@
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do",
 		"/Users/Titanic/Desktop/createMATLABShortcut.m",
-		"/Users/Titanic/Desktop/Download/Comparison-Programming-Languages-Economics-master/RBC_Python.py",
-		"/Users/Titanic/Documents/GitHub/Data/Rust/dat/README",
-		"/Users/Titanic/Documents/GitHub/Data/Rust/dat/d309.asc",
-		"/Users/Titanic/Desktop/Matlab/Crack_Help.txt",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Others Code/blphw/blphw.py",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Robin/results.txt",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Robin/mydiary.txt",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Python/Untitled0.ipynb",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Data/1logit.do"
+		"/Users/Titanic/Desktop/Download/Comparison-Programming-Languages-Economics-master/RBC_Python.py"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -323,6 +321,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"page-navbar-container",
+			"line-height",
+			"navbar",
+			"research",
+			"max-width",
+			"200px",
+			"max",
+			"h5",
+			"h4",
+			"font-size:medium",
+			"h3",
+			"h2",
+			"h1",
+			"h2",
+			"h3",
+			"H3",
+			"style",
+			"page-article",
+			"margin-left",
+			"margin",
+			"margin-left",
+			"margin",
+			"font",
 			"1500",
 			"18000",
 			"9000",
@@ -427,30 +448,7 @@
 			"Seats",
 			"HHI",
 			"HHI_Seats_YM",
-			"Seats",
-			"HHI_YM_Seats",
-			"DepPer",
-			"Seats",
-			"HHI_YM",
-			"2013",
-			"wef",
-			"ODPax",
-			"ApD",
-			"T",
-			"20",
-			"=",
-			"gped =",
-			"gped",
-			"15",
-			"Rp",
-			"Tk",
-			"DB1B",
-			"3",
-			"Mkt",
-			"'",
-			"Nm",
-			", ",
-			"https"
+			"Seats"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,6 +561,34 @@
 		"selected_items":
 		[
 			[
+				"app",
+				"static/less/application.less"
+			],
+			[
+				"defa",
+				"_layouts/default.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"rese",
+				"Research.html"
+			],
+			[
+				"bootstrap",
+				"static/css/bootstrap.css"
+			],
+			[
+				"page",
+				"_layouts/page.html"
+			],
+			[
+				"boot",
+				"static/css/bootstrap.css"
+			],
+			[
 				"res",
 				"Research.html"
 			],
@@ -575,16 +601,8 @@
 				"static/js/jquery.js"
 			],
 			[
-				"ind",
-				"index.html"
-			],
-			[
 				"in",
 				"index.html"
-			],
-			[
-				"rese",
-				"Research.html"
 			],
 			[
 				"index",

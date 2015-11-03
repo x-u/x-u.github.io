@@ -177,6 +177,7 @@
 	"file_history":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
@@ -302,12 +303,11 @@
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/1_Logit_Do.do",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do",
-		"/Users/Titanic/Desktop/createMATLABShortcut.m"
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -511,7 +511,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -552,7 +552,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

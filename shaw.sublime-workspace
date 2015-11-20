@@ -170,7 +170,7 @@
 	"expanded_folders":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
 	],
@@ -178,9 +178,10 @@
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/categories.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/CNAME",
@@ -302,8 +303,7 @@
 		"/Users/Titanic/Desktop/Crash.txt",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/1_Logit_Do.do",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW_Final/Lei_HW1/_revised/HW1_STATA.do"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex"
 	],
 	"find":
 	{
@@ -322,6 +322,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"research",
 			"/Users/Titanic",
 			"leixu.com",
 			"www.",
@@ -448,8 +449,7 @@
 			": ",
 			", ",
 			"cells",
-			"material",
-			"family"
+			"material"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -511,7 +511,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -552,7 +552,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -562,16 +562,16 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"index.html"
+			],
+			[
 				"inde",
 				"index.html"
 			],
 			[
 				"rese",
 				"Research.html"
-			],
-			[
-				"in",
-				"index.html"
 			],
 			[
 				"ind",

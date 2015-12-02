@@ -171,16 +171,17 @@
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
 	],
 	"file_history":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/categories.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/application.css",
@@ -322,6 +323,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Mitchell.Hoffman",
+			"lxu@stern.nyu.edu",
+			"UI Designed by",
 			"research",
 			"/Users/Titanic",
 			"leixu.com",
@@ -446,10 +450,7 @@
 			"Seats",
 			"df",
 			"<",
-			": ",
-			", ",
-			"cells",
-			"material"
+			": "
 		],
 		"highlight": true,
 		"in_selection": false,

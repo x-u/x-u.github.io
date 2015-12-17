@@ -177,11 +177,11 @@
 	],
 	"file_history":
 	[
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/categories.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/application.css",
@@ -323,6 +323,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"research",
+			"- ",
 			"Mitchell.Hoffman",
 			"lxu@stern.nyu.edu",
 			"UI Designed by",
@@ -448,9 +450,7 @@
 			" ",
 			", ",
 			"Seats",
-			"df",
-			"<",
-			": "
+			"df"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,6 +563,14 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.html"
+			],
+			[
+				"resa",
+				"Research.html"
+			],
+			[
 				"in",
 				"index.html"
 			],
@@ -605,10 +613,6 @@
 			[
 				"jquery",
 				"static/js/jquery.js"
-			],
-			[
-				"index",
-				"index.html"
 			],
 			[
 				"ccsoc_pap",

@@ -446,7 +446,7 @@
 			"HHI",
 			"HHI_Pax_YM",
 			"Seats",
-			"  	  ",
+			"  \t  ",
 			",",
 			" ",
 			", ",
@@ -563,11 +563,11 @@
 		"selected_items":
 		[
 			[
-				"inde",
+				"index",
 				"index.html"
 			],
 			[
-				"index",
+				"inde",
 				"index.html"
 			],
 			[

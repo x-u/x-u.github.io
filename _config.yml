@@ -1,0 +1,6 @@
+root: /
+permalink: /:year-:month/:title/
+markdown: rdiscount
+highlighter: null
+paginate: 5
+gems: [jekyll-paginate]

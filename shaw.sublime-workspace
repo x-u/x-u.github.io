@@ -172,15 +172,20 @@
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/Research",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/assets"
 	],
 	"file_history":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/Research/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/post.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/categories.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/ccsoc/Paper/Slides/Lei.tex",
@@ -191,10 +196,8 @@
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/bootstrap.css",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/XNCJuly2015.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/js/jquery.js",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/post.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/font-awesome.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/fontawesome-webfont.eot",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/fonts/FontAwesome.otf",
@@ -302,13 +305,11 @@
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Slides/slidesJanuary2015.tex",
 		"/Users/Titanic/Documents/GitHub/Data/Airline_DB1B/DB1B_make_sample.py",
 		"/Users/Titanic/Desktop/Crash.txt",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/1_Logit_Do.do",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Tables/JC_Month_Avg_DD.tex"
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -323,6 +324,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"research",
 			"Candidate in Economics at McGill",
 			"mcgill",
 			"mcgilll",
@@ -449,8 +451,7 @@
 			"HHI",
 			"HHI_Pax_YM",
 			"Seats",
-			"  \t  ",
-			","
+			"  \t  "
 		],
 		"highlight": true,
 		"in_selection": false,

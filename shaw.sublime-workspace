@@ -173,16 +173,18 @@
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/Research",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/assets"
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/assets",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
 	],
 	"file_history":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/Research/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/Research.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/post.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/x-u.github.io/JMP.html",
@@ -194,7 +196,6 @@
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/less/application.less",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/bootstrap.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/static/css/bootstrap.css",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/XNCJuly2015.tex",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/js/jquery.js",
@@ -309,7 +310,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -324,6 +325,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"200%",
+			"font",
 			"research",
 			"Candidate in Economics at McGill",
 			"mcgill",
@@ -449,9 +452,7 @@
 			"0",
 			"\n",
 			"HHI",
-			"HHI_Pax_YM",
-			"Seats",
-			"  \t  "
+			"HHI_Pax_YM"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -513,7 +514,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -554,7 +555,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -563,6 +564,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ind",
+				"index.html"
+			],
 			[
 				"index",
 				"index.html"
@@ -582,10 +587,6 @@
 			[
 				"rese",
 				"Research.html"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"res",
@@ -844,7 +845,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 181.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

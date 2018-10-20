@@ -310,7 +310,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -565,6 +565,10 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.html"
+			],
+			[
 				"_config",
 				"_config.yml"
 			],
@@ -574,10 +578,6 @@
 			],
 			[
 				"index",
-				"index.html"
-			],
-			[
-				"inde",
 				"index.html"
 			],
 			[

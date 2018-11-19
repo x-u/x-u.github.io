@@ -310,7 +310,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -514,7 +514,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -555,7 +555,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -565,11 +565,11 @@
 		"selected_items":
 		[
 			[
-				"inde",
+				"ind",
 				"index.html"
 			],
 			[
-				"ind",
+				"inde",
 				"index.html"
 			],
 			[

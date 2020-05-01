@@ -180,8 +180,12 @@
 	"file_history":
 	[
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/shaw.sublime-workspace",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/README",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/LICENCE",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/CNAME",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css/application.css",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/Research/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
@@ -273,7 +277,6 @@
 		"/Users/Titanic/Dropbox/1res_main_projects/iPython/Airline_Projects/HSPP_Apt_HHI_T100.ipynb",
 		"/Users/Titanic/Desktop/tt.txt",
 		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/_Appendix.tex",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/README",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/shaw.sublime-project",
 		"/Users/Titanic/Documents/Data/Airline_DB1B/DB1B_Mkt_2010_2.zip",
 		"/Users/Titanic/Desktop/Adobe Acrobat XI Pro 11.0.0 Multilanguage Mac OS X [ChingLiu]/Crack-OSX/install.txt",
@@ -303,14 +306,11 @@
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/temp/CCSOC_Paper_old.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/TT/CCSOC_Paper_TT.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/t3.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Slides/slidesJanuary2015.tex",
-		"/Users/Titanic/Documents/GitHub/Data/Airline_DB1B/DB1B_make_sample.py",
-		"/Users/Titanic/Desktop/Crash.txt",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/2012/PS1/Archive/logit.m"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Slides/slidesJanuary2015.tex"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -325,6 +325,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"toulouse",
+			"lei.xu@tse-fr.eu",
 			"200%",
 			"font",
 			"research",
@@ -450,9 +452,7 @@
 			"i.P",
 			"End",
 			"0",
-			"\n",
-			"HHI",
-			"HHI_Pax_YM"
+			"\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -514,7 +514,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -559,7 +559,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -857,7 +857,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

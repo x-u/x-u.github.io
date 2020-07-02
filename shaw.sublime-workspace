@@ -169,16 +169,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_posts",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/assets",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static",
-		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/static/css"
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw"
 	],
 	"file_history":
 	[
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/shaw.sublime-workspace",
@@ -305,12 +300,11 @@
 		"/Users/Titanic/Documents/GitHub/SO_STATA_Others.do",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/temp/CCSOC_Paper_old.tex",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/TT/CCSOC_Paper_TT.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/t3.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Shared_Nian_Cabral/Paper/Slides/slidesJanuary2015.tex"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/t3.tex"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -514,7 +508,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -559,7 +553,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -148,7 +148,7 @@
 	},
 	"console":
 	{
-		"height": 56.0,
+		"height": 58.0,
 		"history":
 		[
 			"data",
@@ -304,7 +304,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -319,6 +319,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Algorithmic",
 			"toulouse",
 			"lei.xu@tse-fr.eu",
 			"200%",
@@ -445,8 +446,7 @@
 			"*VGA",
 			"i.P",
 			"End",
-			"0",
-			"\n"
+			"0"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -508,7 +508,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -553,7 +553,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -563,11 +563,11 @@
 		"selected_items":
 		[
 			[
-				"ind",
+				"inde",
 				"index.html"
 			],
 			[
-				"inde",
+				"ind",
 				"index.html"
 			],
 			[

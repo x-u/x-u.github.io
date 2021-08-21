@@ -169,11 +169,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw"
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/assets"
 	],
 	"file_history":
 	[
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/2013-10/Design-Deploy-Service/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/404/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/categories/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/tags/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/shaw.sublime-workspace",
@@ -294,21 +302,15 @@
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/BLP/Nevo/gmmobj.m",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/JC_Month_Avg_DD.tex",
 		"/Users/Titanic/Desktop/Crash2",
-		"/Users/Titanic/Desktop/crash3",
-		"/Users/Titanic/Documents/GitHub/Data/Rust/README.txt",
-		"/System/Library/Filesystems/fusefs_txantfs.fs/Support/uninstall-package.sh",
-		"/Users/Titanic/Documents/GitHub/SO_STATA_Others.do",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/temp/CCSOC_Paper_old.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/TT/CCSOC_Paper_TT.tex",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/t3.tex"
+		"/Users/Titanic/Desktop/crash3"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 113.0,
 		"where_history":
 		[
 			"<open folders>"
@@ -319,6 +321,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Bank of Canada",
 			"- ",
 			"Algorithmic",
 			"toulouse",
@@ -445,8 +448,7 @@
 			" =",
 			"-12",
 			"*VGA",
-			"i.P",
-			"End"
+			"i.P"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -454,6 +456,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Economist",
 			"SOC_Profile",
 			"",
 			" %\\pause",
@@ -508,7 +511,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -553,7 +556,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":

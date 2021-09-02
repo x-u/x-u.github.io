@@ -30,189 +30,889 @@
          <div class="page-brand">
              <!-- <h1>Lei Xu</h1> -->
              <!-- <h1 style="font-family:verdana;font-size:300%">Lei Xu</h1> -->
-             <h1 style="font-family:Avantgarde;font-size:300%">Lei Xu222</h1>
+             <h1 style="font-family:Avantgarde;font-size:200%">Queen's University</h1>
+            <h1 style="font-family:Avantgarde;font-size:150%">ECON371 - Economics of Regulation</h1>
              <!-- <h1 style="font-family:'Arial Black';font-size:300%">Lei Xu</h1> -->
              
              <!-- <h2>Economist</h2> -->
          </div>
      </div>
      <div class="page-article">
-         <!-- <H2 ALIGN="CENTER">Lei Xu</H2> -->
-<!-- <P ALIGN="RIGHT"> -->
-<img src="/assets/Xu_Headshot2.jpg" style="width: 35%; height: 40%"/>
-<P ALIGN="LEFT">
-Contact:<BR>
-<!-- 234 Wellington St<BR> -->
-<!-- Ottawa, ON K1A0G9, Canada<BR> -->
-<!-- Website: <A HREF="http://www.leixu.org"><B>http://www.leixu.org</B></A><BR> -->
-E-mail: <A HREF="mailto:lei.xu2@gmail.com"><B>lei.xu2@gmail.com</B></A><BR>
+         <p>Hydejack offers a few additional features to markup your content.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
 
-<P>
+<ol id="markdown-toc">
+  <li><a href="#a-word-on-building-speeds" id="markdown-toc-a-word-on-building-speeds">A word on building speeds</a></li>
+  <li><a href="#adding-a-table-of-contents" id="markdown-toc-adding-a-table-of-contents">Adding a table of contents</a></li>
+  <li><a href="#adding-notes" id="markdown-toc-adding-notes">Adding notes</a></li>
+  <li><a href="#adding-large-text" id="markdown-toc-adding-large-text">Adding large text</a></li>
+  <li><a href="#adding-large-images" id="markdown-toc-adding-large-images">Adding large images</a></li>
+  <li><a href="#adding-image-captions" id="markdown-toc-adding-image-captions">Adding image captions</a></li>
+  <li><a href="#adding-large-quotes" id="markdown-toc-adding-large-quotes">Adding large quotes</a></li>
+  <li><a href="#adding-faded-text" id="markdown-toc-adding-faded-text">Adding faded text</a></li>
+  <li><a href="#adding-tables" id="markdown-toc-adding-tables">Adding tables</a>    <ol>
+      <li><a href="#scroll-table" id="markdown-toc-scroll-table">Scroll table</a></li>
+      <li><a href="#flip-table" id="markdown-toc-flip-table">Flip table</a></li>
+      <li><a href="#small-tables" id="markdown-toc-small-tables">Small tables</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-code-blocks" id="markdown-toc-adding-code-blocks">Adding code blocks</a></li>
+  <li><a href="#adding-math" id="markdown-toc-adding-math">Adding math</a>    <ol>
+      <li><a href="#inline" id="markdown-toc-inline">Inline</a></li>
+      <li><a href="#block" id="markdown-toc-block">Block</a></li>
+    </ol>
+  </li>
+</ol>
 
-<A HREF="https://x-u.github.io/Xu_Lei_CV.pdf"><B>Download Full CV</B></A><BR>
+<p class="note">For an introduction to markdown in general, see <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a> and <a href="https://kramdown.gettalong.org/syntax.html">kramdown Syntax</a>.</p>
 
-<H3><A NAME="Professional Experience"></A><U>Professional Experience</U></H3>
+<h2 id="a-word-on-building-speeds">A word on building speeds</h2>
+<p>If building speeds are a problem, try using the <code class="language-plaintext highlighter-rouge">--incremental</code> flag, e.g.</p>
 
-<UL>
-    <LI><B>Adjunct Assistant Professor </B>Queen's University, Fall 2021
-    <LI><B>Senior Economist </B>Bank of Canada, 2019 - Summer 2021
-    <LI><B>Postdoctoral Researcher </B>Toulouse School of Economics, 2016 - 2019
-    <LI><B>Visiting Scholar </B>Rotman School of Management, University of Toronto, 2014 - 2015
-    <LI><B>Visiting Scholar </B>NYU Stern School of Business, 2012 - 2014
-</UL>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve --incremental
+</code></pre></div></div>
 
-<P>
+<p>From the <a href="https://jekyllrb.com/docs/configuration/#build-command-options">Jekyll docs</a> (emphasis mine):</p>
 
-<H3><A NAME="education"></A><U>Education</U></H3>
+<blockquote>
+  <p>Enable the experimental incremental build feature. Incremental build only re-builds posts and pages that have changed, resulting in significant performance improvements for large sites, <em>but may also break site generation in certain cases</em>.</p>
+</blockquote>
 
-<UL>
-    <LI><B>Ph.D. </B>McGill University, Economics, 2010 - 2016
-    <LI><B>M.A. </B>McGill University, Economics, 2009 - 2010
-    <LI><B>B.A. </B>McGill University, Joint Honours in Economics and Finance, 2005 - 2009
-</UL>
+<p>The breakage occurs when you create new files or change filenames.
+Also, changing the title, category, tags, etc. of a page or post will not be reflected in pages
+other then the page or post itself.
+This makes it ideal for writing new posts and previewing changes, but not setting up new content.</p>
 
-<P>
-<H3><A NAME="fields"></A><U>Fields</U></H3>
+<h2 id="adding-a-table-of-contents">Adding a table of contents</h2>
+<p>You can add a generated table of contents to any page by adding <code class="language-plaintext highlighter-rouge">{:toc}</code> below a list.</p>
 
-<UL>
-    <LI>Empirical IO
-    <LI>Applied Micro
-</UL>
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> this unordered seed list will be replaced by the toc
+{:toc}
+</code></pre></div></div>
 
-<H3><A NAME="personal"></A><U>Personal Information</U></H3>
+<p>You can also create your table of contents as an ordered list (note the <code class="language-plaintext highlighter-rouge">1.</code> instead of <code class="language-plaintext highlighter-rouge">*</code>):</p>
 
-<UL>
-    <LI>Permanent Resident of Canada
-    <LI>Citizenship: China
-</UL>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> this ordered seed list will be replaced by the toc
+{:toc}
+</code></pre></div></div>
 
-<H3><A NAME="research"></A><U>Work In Progress</U></H3>
-<A HREF="http://x-u.github.io/paper/algorithmic_pricing_and_competition.pdf"><B>Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market</B></A>
-with Stephanie Assad (Queen's), Robert Clark (Queen's) and Daniel Ershov (TSE)<br>
-We provide the first empirical analysis of the relationship between algorithmic pricing (AP) and competition by studying the impact of adoption in Germany’s retail gasoline market, where AP software became widely available in 2017. Because adoption dates are unknown, we identify adopting stations by testing for structural breaks in AP markers, finding most breaks to be around the time of widespread AP introduction. Because station adoption is endogenous, we instrument using headquarter adoption. Adoption increases margins, but only for nonmonopolists. In duopoly markets, margins increase only if both stations adopt, suggesting that AP adoption has a significant effect on competition.
+<p>The width of the display has to be larger than 1665px for the ToC to become sticky.
+Otherwise, the ToC will appear where the seed list is placed in the document.
+To show the table of contents only on large displays (&gt; 1665px) use the following:</p>
 
-<br><br>
-<A HREF="http://x-u.github.io/Xu_JMP.pdf"><B>Technology Adoption in Input-Output Networks</B></A>
-with Xintong Han (Concordia University)<br><i><B>R&R Management Science</B></i> <br>
-This paper investigates the role of network structure in technology adoption. In particular, we study how the network of individual agents can slow down the speed of adoption. We study this issue in the context of the Python programming language by modeling the decisions to adopt Python version 3 by software packages. Python 3 provides advanced features but is not backward compatible with Python 2, which implies adoption costs. Moreover, packages form an input-output network through dependency on other packages in order to avoid writing duplicate code, and they face additional adoption costs from dependencies without Python 3 support. We build a dynamic model of technology adoption that incorporates the input-output network. With a complete dataset of package characteristics for historical releases and user downloads, we draw the input-output network and develop a new estimation method based on the dependency relationship. Estimation results show the average cost of one incompatible dependency is one-third the fixed cost of updating a package's code. Simulations show the input-output network contributes to 1.5 years of adoption inertia. We conduct counterfactual policies of promotion in subcommunities and find significant heterogeneous effects on the adoption rates due to differences in network structure.
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> this unordered seed list will be replaced by the toc 
+{:toc .large-only}
+</code></pre></div></div>
 
-<br><br>
-<A HREF="https://x-u.github.io/Xu_Platform_Competition.pdf"><B>Platform Competition with Local Network Effects </B></A><br>
-This paper presents a dynamic model of price competition between two networks in which consumers value local network effects. Specifically, each consumer’s utility level depends on the number of her neighbors in the same network. Consumers in different neighborhoods choose their networks, and each network competes for new customers in different neighborhoods with a homogeneous entry price. I characterize equilibrium market structure with a combination of analytical and numerical solutions, and compare them to results from network effect models that are global, in which a consumer benefits from all other consumers in the same network. I provide sufficient conditions such that one firm dominants both local markets, as well as sufficient conditions that each firm is the dominant one in each local market. 
+<p class="note">A sticky table of contents will reduce the amount of space freed up by the <code class="language-plaintext highlighter-rouge">no_break_layout: false</code> setting.<br />
+This is necessary to ensure large code blocks or tables don’t overlap with the ToC.</p>
 
+<h2 id="adding-notes">Adding notes</h2>
+<p>You can add a note by adding the <code class="language-plaintext highlighter-rouge">note</code> class to a paragraph.</p>
 
-<H3><A NAME="research"></A><U>Publication</U></H3>
-<A HREF="https://onlinelibrary.wiley.com/doi/full/10.1111/ecin.12993"><B>Seller Reputation and Price Gouging: Evidence from the COVID-19 Pandemic</B></A>
-with Luis Cabral (NYU Stern)<br><i><B>Economic Inquiry</B></i> 59 (2021)<br>
-We test the theory that seller reputation moderates the effect of demand shocks on a seller's propensity to price gouge. From mid January to mid March 2020, 3M masks were priced 2.72 times higher than Amazon sold them in 2019. However, the difference (in price ratios) between a post-COVID-19 entrant and an established seller is estimated to be about 1.6 at times of maximum scarcity, that is, post-COVID-19 entrants price at approximately twice the level of established sellers. Similar results are obtained for Purell hand sanitizer. We also consider cumulative reviews as a measure of what a seller has to lose from damaging its reputation and, again, obtain similar results. Finally, we explore policy implications of our results.
+<p>Example:</p>
 
-<br><br>
-<A HREF="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3264"><B>What Makes Geeks Tick? A Study of Stack Overflow Careers </B></A>with Tingting Nian (UC Irvine) and Luis Cabral (NYU Stern)<br><i><B>Management Science</B></i> 66 (2020)<br>
-Many online platforms rely on users to voluntarily provide content. What motivates users to contribute content for free, however, is not well understood. In this paper, we use a revealed-preference approach to show that career concerns play an important role in user contributions to Stack Overflow, the largest online Q&A community. We investigate how activities that can enhance a user's reputation vary before and after the user finds a new job. We contrast this reputation-generating activity with activities that do not improve a user's reputation. After finding a new job, users contribute 23.7% less in reputation-generating activity; by contrast, they reduce their non-reputation-generating activity by only 7.4%. These findings suggest that users contribute to Stack Overflow in part because they perceive such contributions as a way to improve future employment prospects. We provide direct evidence against alternative explanations such as integer constraints, skills mismatch, and dynamic selection effects.
+<p class="note">You can add a note.</p>
 
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can add a note.
+{:.note}
+</code></pre></div></div>
 
-<!-- <UL>
-    <LI>Industrial Organization, Economics of Digitization
-    <LI>Labor Economics, Applied Microeconomics
-</UL>
- --><!-- <P>
-<H3><A NAME="AreaOS"></A><U>References</U></H3>
-<UL>
-    <LI><A HREF="http://www.fabianlange.ca/"><B> Professor Fabian Lange</B></A> (McGill University)
-    <LI><A HREF="http://www.stern.nyu.edu/faculty/bio/luis-cabral"><B> Professor Luis Cabral</B></A> (NYU Stern)
-    <LI><A HREF="http://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Hoffman.aspx"><B> Professor Mitchell Hoffman</B></A> (Rotman)
-    <LI><A HREF="http://people.mcgill.ca/licun.xue/"><B> Professor Licun Xue</B></A> (McGill University)
-</UL> -->
+<p>Edit the <code class="language-plaintext highlighter-rouge">note</code> key in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code> to change the wording of the default label.
+To add a note with a specific label, add a <code class="language-plaintext highlighter-rouge">title</code> attribute:</p>
 
-    <!-- <table color="transparent" align="center">
-      <tr>
-        <td>
-            <A HREF="http://www.fabianlange.ca/"><B> Professor Fabian Lange</B></A><BR>
-            Department of Economics <BR>
-            McGill University <BR>
-            855 Sherbrooke Street West <BR>
-            Montreal, Quebec, Canada H3A 2T7 <BR>
-            Office: 514-653-0020 <BR>
-            Email: <A HREF="mailto:fabolange@gmail.com">fabian.lange@yale.edu</A> &nbsp;&nbsp;&nbsp;&nbsp;<BR>
-        </td>
-        <td>
-            <A HREF="http://www.stern.nyu.edu/faculty/bio/luis-cabral"><B> Professor Luis Cabral</B></A><BR>
-            Stern School of Business <BR>
-            New York University <BR>
-            44 West Fourth Street <BR>
-            New York, NY 10012 <BR>
-            Office: 212-998-0858 <BR>
-            Email: <A HREF="mailto:luis.cabral@nyu.edu">lcabral@stern.nyu.edu</A> <BR>
-        </td>    
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A custom label.
+{:.note title="Attention"}
+</code></pre></div></div>
+
+<p class="note" title="Attention">A custom label.</p>
+
+<h2 id="adding-large-text">Adding large text</h2>
+<p>You can add large text by adding the <code class="language-plaintext highlighter-rouge">lead</code> class to the paragraph.</p>
+
+<p>Example:</p>
+
+<p class="lead">You can add large text.</p>
+
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can add large text.
+{:.lead}
+</code></pre></div></div>
+
+<h2 id="adding-large-images">Adding large images</h2>
+<p>You can make an image span the full width by adding the <code class="language-plaintext highlighter-rouge">lead</code> class.</p>
+
+<p>Example:</p>
+
+<p><img src="https://placehold.it/800x100" alt="Full-width image" class="lead" width="800" height="100" loading="lazy" /></p>
+
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Full-width image</span><span class="p">](</span><span class="sx">https://placehold.it/800x100</span><span class="p">)</span>{:.lead width="800" height="100" loading="lazy"}
+</code></pre></div></div>
+
+<p>It is recommended to provide the dimension of the image via the <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> attributes, 
+so that browsers can calculate the layout before the images are loaded. Combining this with the <code class="language-plaintext highlighter-rouge">loading="lazy"</code> attribute
+allows modern browsers to load the images just-in-time as the users scrolls.</p>
+
+<p class="note">Previous versions of Hydejack shipped with a custom JavaScript-based lazy loading solution,
+but it has been removed in v9 in favor of this more standards-based approach.</p>
+
+<h2 id="adding-image-captions">Adding image captions</h2>
+<p>You can add captions to large images by adding the <code class="language-plaintext highlighter-rouge">figcaption</code> class to the paragraph after the image:</p>
+
+<p><img src="https://placehold.it/800x100" alt="Full-width image" class="lead" width="800" height="100" loading="lazy" /></p>
+
+<p class="figcaption">An optional caption for an image.</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Full-width image</span><span class="p">](</span><span class="sx">https://placehold.it/800x100</span><span class="p">)</span>{:.lead width="800" height="100" loading="lazy"}
+
+A caption for an image.
+{:.figcaption}
+</code></pre></div></div>
+
+<h2 id="adding-large-quotes">Adding large quotes</h2>
+<p>You can make a quote “pop out” by adding the <code class="language-plaintext highlighter-rouge">lead</code> class.</p>
+
+<p>Example:</p>
+
+<blockquote class="lead">
+  <p>You can make a quote “pop out”.</p>
+</blockquote>
+
+<p>Markdown:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; You can make a quote "pop out".
+{:.lead}
+</code></pre></div></div>
+
+<h2 id="adding-faded-text">Adding faded text</h2>
+<p>You can gray out text by adding the <code class="language-plaintext highlighter-rouge">faded</code> class. Use this sparingly and for information that is not essential, as it is more difficult to read.</p>
+
+<p>Example:</p>
+
+<p class="faded">I’m faded, faded, faded.</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I'm faded, faded, faded.
+{:.faded}
+</code></pre></div></div>
+
+<h2 id="adding-tables">Adding tables</h2>
+<p>Adding tables is straightforward and works just as described in the <a href="https://kramdown.gettalong.org/syntax.html#tables">kramdown docs</a>, e.g.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+</code></pre></div></div>
+
+<p>However, it gets tricker when adding large tables.
+In this case, Hydejack will break the layout and grant the table the entire available screen width to the right:</p>
+
+<table class="smaller">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
     </tr>
     <tr>
-        <td>
-            <A HREF="http://people.mcgill.ca/licun.xue/"><B> Professor Licun Xue</B></A><BR>
-            Department of Economics <BR>
-            McGill University <BR>
-            855 Sherbrooke Street West <BR>
-            Montreal, Quebec, Canada H3A 2T7 &nbsp;&nbsp;&nbsp;&nbsp;<BR>
-            Office: 514-398-3701 <BR>
-            Email: <A HREF="mailto:licun.xue@mcgill.ca">licun.xue@mcgill.ca</A> <BR>
-        </td>
-        <td>
-            <BR>
-            <A HREF="http://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Hoffman.aspx"><B> Professor Mitchell Hoffman</B></A><BR>
-            Strategic Management Unit <BR>
-            Rotman School of Management <BR>
-            University of Toronto <BR>
-            105 St. George St. <BR>
-            Toronto, Ontario, M5S 3E6 <BR>
-            Office: 416-978-1529 <BR>
-            Email: <A HREF="mitchell.hoffman@rotman.utoronto.ca">mitchell.hoffman@rotman.utoronto.ca</A> <BR>
-        </td>
-      </tr>
-    </table> -->
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<p class="note">Tables adopts to the font size! You can decrease the size of the table by adding the <code class="language-plaintext highlighter-rouge">smaller</code> CSS class. Put <code class="language-plaintext highlighter-rouge">{:.smaller}</code> below the Markdown table, or add <code class="language-plaintext highlighter-rouge">class="smaller"</code> to a HTML table.</p>
+
+<h3 id="scroll-table">Scroll table</h3>
+<p>If the extra space still isn’t enough, the table will receive a scrollbar.
+It is browser default behavior to break the lines inside table cells to fit the content on the screen.
+By adding the <code class="language-plaintext highlighter-rouge">scroll-table</code> class on a table, the behavior is changed to never break lines inside cells, e.g:</p>
+
+<table class="smaller scroll-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<p>You can add the <code class="language-plaintext highlighter-rouge">scroll-table</code> class to a markdown table by putting <code class="language-plaintext highlighter-rouge">{:.scroll-table}</code> in line directly below the table.
+To add the class to a HTML table, add the it to the <code class="language-plaintext highlighter-rouge">class</code> attribute of the <code class="language-plaintext highlighter-rouge">table</code> tag, e.g. <code class="language-plaintext highlighter-rouge">&lt;table class="scroll-table"&gt;</code>.</p>
+
+<h3 id="flip-table">Flip table</h3>
+<p>Alternatively, you can “flip” (transpose) the table.
+Unlike the other approach, this will keep the table head (now the first column) fixed in place.</p>
+
+<p>You can enable this behavior by adding <code class="language-plaintext highlighter-rouge">flip-table</code> or <code class="language-plaintext highlighter-rouge">flip-table-small</code> to the CSS classes of the table.
+The <code class="language-plaintext highlighter-rouge">-small</code> version will only enable scrolling on “small” screens (&lt; 1080px wide).</p>
+
+<p class="note">This approach only works on simple tables that have a single <code class="language-plaintext highlighter-rouge">tbody</code> and an optional <code class="language-plaintext highlighter-rouge">thead</code>.</p>
+
+<p>Example:</p>
+
+<table class="smaller flip-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>4th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>4th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>4th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>4th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>5th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>5th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>5th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>5th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>6th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>6th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>6th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>6th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>7th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>7th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>7th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>7th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>8th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>8th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>8th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>8th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>9th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>9th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>9th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>9th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>10th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>10th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>10th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>10th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>11th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>11th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>11th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>11th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>12th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>12th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>12th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>12th line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can add the <code class="language-plaintext highlighter-rouge">flip-table</code> class to a markdown table by putting <code class="language-plaintext highlighter-rouge">{:.flip-table}</code> in line directly below the table.
+To add the class to a HTML table, add the it to the <code class="language-plaintext highlighter-rouge">class</code> attribute of the <code class="language-plaintext highlighter-rouge">table</code> tag, e.g. <code class="language-plaintext highlighter-rouge">&lt;table class="flip-table"&gt;</code>.</p>
+
+<h3 id="small-tables">Small tables</h3>
+<p>If a table is small enough to fit the screen even on small screens, you can add the <code class="language-plaintext highlighter-rouge">stretch-table</code> class
+to force a table to use the entire available content width. Note that stretched tables can no longer be scrolled.</p>
+
+<table class="stretch-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="figcaption">An optional caption for a table</p>
+
+<p>You can add the <code class="language-plaintext highlighter-rouge">stretch-table</code> class to a markdown table by putting <code class="language-plaintext highlighter-rouge">{:.stretch-table}</code> in line directly below the table.
+To add the class to a HTML table, add the it to the <code class="language-plaintext highlighter-rouge">class</code> attribute of the <code class="language-plaintext highlighter-rouge">table</code> tag, e.g. <code class="language-plaintext highlighter-rouge">&lt;table class="stretch-table"&gt;</code>.</p>
+
+<p>Just like images, you can add captions to tables by adding the <code class="language-plaintext highlighter-rouge">figcaption</code> class to the paragraph after the table.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>An optional caption for a table
+{:.figcaption}
+</code></pre></div></div>
+
+<h2 id="adding-code-blocks">Adding code blocks</h2>
+<p>To add a code block without syntax highlighting, simply indent 4 spaces (regular markdown).
+For code blocks with code highlighting, use <code class="language-plaintext highlighter-rouge">~~~&lt;language&gt;</code>. This syntax is also supported by GitHub.
+For more information and a list of supported languages, see <a href="http://rouge.jneen.net/">Rouge</a>.</p>
+
+<p>You can give each code block a filename, by making the first line in the block a comment of the form <code class="language-plaintext highlighter-rouge">File: "dir/filename.ext"</code>. Use either single quotes <code class="language-plaintext highlighter-rouge">'</code>, double quotes <code class="language-plaintext highlighter-rouge">"</code>, or backticks <code>`</code> to surround the filename.</p>
+
+<p>Example:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "code-block.js"</span>
+<span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
+<span class="c1">// arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span>
+</code></pre></div></div>
+
+<p class="figcaption">An optional caption for a code block</p>
+
+<p>Markdown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~~~js
+// file: "code-block.js"
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those
+// arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// &gt; 8
+~~~
+
+An optional caption for a code block
+{:.figcaption}
+</code></pre></div></div>
+
+<p class="note">DO NOT use Jekyll’s <code class="language-plaintext highlighter-rouge">{ % highlight % } ... { % endhighlight % }</code> syntax, especially together with the <code class="language-plaintext highlighter-rouge">linenos</code> option.
+The generated <code class="language-plaintext highlighter-rouge">table</code> to render the line numbers does not have a CSS class or any other way of differentiating it from regular tables,
+so that the styles above apply, resulting in a broken page.
+What’s more, the output from <code class="language-plaintext highlighter-rouge">highlight</code> tags isn’t even valid HTML, nesting <code class="language-plaintext highlighter-rouge">pre</code> tags inside <code class="language-plaintext highlighter-rouge">pre</code> tags,
+which will in break the site during minification.
+You can read more about it <a href="https://github.com/penibelst/jekyll-compress-html/issues/71">here</a> and
+<a href="https://github.com/jekyll/jekyll/issues/4432">here</a>.</p>
+
+<h2 id="adding-math">Adding math</h2>
+<p>Before adding math blocks, make sure you’ve <a href="./config.md#enabling-math-blocks">set up math support</a>.</p>
+
+<h3 id="inline">Inline</h3>
+<p>Example:</p>
+
+<p>Lorem ipsum \(f(x) = x^2\).</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lorem ipsum $$ f(x) = x^2 $$.
+</code></pre></div></div>
+
+<h3 id="block">Block</h3>
+<p>Example:</p>
+
+\[\begin{aligned}
+  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
+                 \vdots          &amp; \ddots &amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}\]
+
+<p class="figcaption">An optional caption for a math block</p>
+
+<p>Markdown:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
+</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">aligned</span><span class="p">}</span><span class="nb"> </span><span class="c">%!!15</span><span class="nb">
+  </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">x,y</span><span class="o">)</span><span class="nb"> </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="nv">\phi</span><span class="nb"> </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">i</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n x</span><span class="p">_</span><span class="nb">ie</span><span class="p">_</span><span class="nb">i, </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">j</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n y</span><span class="p">_</span><span class="nb">je</span><span class="p">_</span><span class="nb">j </span><span class="nv">\right</span><span class="o">)</span><span class="nb"> </span><span class="nv">\\</span><span class="o">[</span><span class="m">2</span><span class="nb">em</span><span class="o">]</span><span class="nb">
+            </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">i</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">j</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n x</span><span class="p">_</span><span class="nb">i y</span><span class="p">_</span><span class="nb">j </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">i, e</span><span class="p">_</span><span class="nb">j</span><span class="o">)</span><span class="nb">            </span><span class="nv">\\</span><span class="o">[</span><span class="m">2</span><span class="nb">em</span><span class="o">]</span><span class="nb">
+            </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="o">(</span><span class="nb">x</span><span class="p">_</span><span class="m">1</span><span class="nb">, </span><span class="nv">\ldots</span><span class="nb">, x</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">array</span><span class="p">}{</span><span class="nb">ccc</span><span class="p">}</span><span class="nb">
+                 </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="m">1</span><span class="nb">, e</span><span class="p">_</span><span class="m">1</span><span class="o">)</span><span class="nb">  </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="m">1</span><span class="nb">, e</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb"> </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\vdots</span><span class="nb">          </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\ddots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\vdots</span><span class="nb">         </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">n, e</span><span class="p">_</span><span class="m">1</span><span class="o">)</span><span class="nb">  </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">n, e</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\end</span><span class="p">{</span><span class="nb">array</span><span class="p">}</span><span class="nv">\right</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">array</span><span class="p">}{</span><span class="nb">c</span><span class="p">}</span><span class="nb">
+                 y</span><span class="p">_</span><span class="m">1</span><span class="nb">    </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\vdots</span><span class="nb"> </span><span class="nv">\\</span><span class="nb">
+                 y</span><span class="p">_</span><span class="nb">n
+               </span><span class="nv">\end</span><span class="p">{</span><span class="nb">array</span><span class="p">}</span><span class="nv">\right</span><span class="o">)</span><span class="nb">
+</span><span class="nv">\end</span><span class="p">{</span><span class="nb">aligned</span><span class="p">}</span><span class="nb">
+</span><span class="p">$$</span>
+
+An optional caption for a math block
+<span class="p">{</span>:.figcaption<span class="p">}</span>
+</code></pre></div></div>
+
+<p class="note">KaTeX does not support the <code class="language-plaintext highlighter-rouge">align</code> and <code class="language-plaintext highlighter-rouge">align*</code> environments.
+Instead, <code class="language-plaintext highlighter-rouge">aligned</code> should be used, e.g. <code class="language-plaintext highlighter-rouge">\begin{aligned} ... \end{aligned}</code>.</p>
+
+<p class="read-more">Continue with <a href="scripts.md" class="heading flip-title">Scripts</a></p>
 
 
-<P>
-
-<!-- <H3><A NAME="conferences"></A><U>Conference Presentations</U></H3> -->
-<!-- <ul> -->
-    <!-- <li><a href="URL">Conf_Name</a> Lieu, Date -->
-    <!-- <li><a href="URL">Conf_Name</a> Lieu, Date -->
-    <!-- <li><a href="URL">Conf_Name</a> Lieu, Date -->
-<!--     <li><a href="http://www.zew.de/en/veranstaltungen-und-weiterbildung/detail/?tx_t3events_events%5Bevent%5D=794&tx_t3events_events%5Bperformance%5D=794&tx_t3events_events%5Baction%5D=show&tx_t3events_events%5Bcontroller%5D=Performance&cHash=b2ce55ad237d75b2cd42104d11c10b65">Labor Market Adjustments to Digitization and the Future of Work</a> Mannheim, September 2016
-    <li><a href="http://www.earie2016.org/">43rd Annual Conference of the European Association for Research in Industrial Economics (EARIE)</a> Lisbon, August 2016
-    <li><a href="http://conference.nber.org/confer/2016/SI2016/PRIT/PRITprg.html">NBER SI 2016 Economics of IT and Digitization</a> Boston, July 2016
-    <li><a href="http://www.law.northwestern.edu/research-faculty/searlecenter/events/internet/">Seventh Annual Conference on Internet Commerce and Innovation</a> Chicago, June 2016
-    <li><a href="http://www.zew.de/en/veranstaltungen-und-weiterbildung/detail/?tx_t3events_events%5Bevent%5D=790&tx_t3events_events%5Bperformance%5D=790&tx_t3events_events%5Baction%5D=show&tx_t3events_events%5Bcontroller%5D=Performance&cHash=8075f8b2c27aee650ed74865168ae26d">14th ZEW Conference on The Economics of Information and Communication Technologies</a> Mannheim, June 2016
-    <li><a href="http://idei.fr/fr/conferences/2016-ninth-idei-tse-iast-conference-economics-intellectual-property-software-and-internet?page=1#_">Ninth Conference on the Economics of Intellectual Property, Software and the Internet</a> Toulouse School of Economics, France, January 2016
-    <li><a href="http://meetings2.informs.org/wordpress/philadelphia/">2015 INFORMS Annual Meeting</a> Philadelphia, November 2015
-    <li><a href="http://nber.org/~confer/2015/SI2015/SI2015.html">NBER Summer 2015: Economics of IT and Digitization</a> Boston, July 2015
-    <li><a href="http://questromworld.bu.edu/platformstrategy/">Platform Strategy Research Symposium</a> Boston, July 2015
-    <li><a href="http://www.sole-jole.org/2015.htm/">Fourth Society of Labor Economists World Conference (SOLE)</a> Montreal, June 2015
-    <li><a href="http://www.ios.neu.edu/">13th Annual International Industrial Organization Conference (IIOC)</a> Boston, April 2015
-    <li><a href="http://www.ios.neu.edu/">12th Annual International Industrial Organization Conference (IIOC)</a> Chicago, April 2014
-    <li><a href="http://www.earie2013.org/">40th European Association for Research in Industrial Economics (EARIE)</a> Evora, Portugal, 2013
-    <li><a href="http://www.cireqmontreal.com/en/view/8732/programme-130607">Ninth CIREQ Ph.D. Students' Conference</a> Montreal, 2013 -->
-<!-- </ul> -->
-
-<!-- <P>
-<H3><A NAME="seminars"></A><U>Seminar Presentations</U></H3>
-
-<ul>
-    <li>CIREQ Seminar, McGill University, 2015
-    <li>CEPA Seminar, University of Toronto, 2015
-    <li>CIREQ Seminar, McGill University, 2014
-    <li>NYU Stern IO Seminar, NYU Stern, 2013
-    <li>CIREQ Seminar, McGill University, 2013
-</ul> -->
-
-<!-- <p>
-<H3><A NAME="RJArticles"></A><U>Research Papers</U></H3>
-
-<OL>
-    <LI>What Makes Geeks Tick? A Study of Stack Overflow Careers, <i>with Tingting Nian (NYU Stern) and Luis Cabral (NYU Stern)</i>
-    <LI>Platform Competition with Local Network Effects</i>
-    <LI>Multi-Market Contact in Chinese Airlines Industry, <i>with Wenbo Wang (HKUST) and Lai Jiang (UBC)</i>
-</i>
-</OL> -->
      </div>
      <div class="page-footer">
          <span>

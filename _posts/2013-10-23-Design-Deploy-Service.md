@@ -1,12 +1,10 @@
 ---
 layout: post
-title: On Designing and Deploying Internet-Scale Services
+title:  "Welcome to Jekyll!"
 ---
 
+# Welcome
 
-Windows Live Services Platform 200
-//www.mvdirona.com/jrh/TalksAndPapers/JamesRH_Lisa.pdf
+**Hello world**, this is my first Jekyll blog post.
 
-bmy 2013-06-01
-
-
+I hope you like it!

@@ -36,11 +36,35 @@
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"liverelo",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -170,15 +194,32 @@
 	"expanded_folders":
 	[
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_includes",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_posts",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/assets",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/static"
 	],
 	"file_history":
 	[
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/econ371.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_site/econ371/index.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/econ371.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/categories.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_posts/2013-10-23-Design-Deploy-Service.md",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/post.html",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_includes/header.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_config.yml",
+		"/Users/Titanic/Dropbox/3Res_Others/Website/shaw/_data/topnav.yml",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/2013-10/Design-Deploy-Service/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/404/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site/categories/index.html",
@@ -289,25 +330,11 @@
 		"/Users/Titanic/Desktop/t1.py",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/NESN/Dynamic_Price_Competition_with_Local_Network_Effects/NESN.sublime-workspace",
 		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Paper.aux",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP.m",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/logit.m",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP_WSS.m",
-		"/Volumes/Storage/Software/MAC Software/Adobe/Adobe Acrobat XI Pro 11.0.0 Multilanguage Mac OS X [ChingLiu]/Crack-OSX/install.txt",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/iPython/SO_Stata/Main_M_Avg_FD.do",
-		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/Tables/Main_M_Avg_FD.tex",
-		"/Users/Titanic/Dropbox/1res_main_projects/ccsoc/Paper/CCSOC_Paper.tex",
-		"/Users/Titanic/Documents/GitHub/SO_STATA_Avg_Job.do",
-		"/Users/Titanic/Documents/GitHub/SO_Data_SQL_Extract.ipynb",
-		"/Users/Titanic/Desktop/Download/pyipopt/setup.py",
-		"/Users/Titanic/Desktop/Download/pyipopt/src/hook.h",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/BLP/Nevo/gmmobj.m",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/Tables/JC_Month_Avg_DD.tex",
-		"/Users/Titanic/Desktop/Crash2",
-		"/Users/Titanic/Desktop/crash3"
+		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP.m"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -322,6 +349,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h2",
+			"h1",
+			"<nav>",
+			"<body>",
 			"Economist",
 			"Bank of Canada",
 			"- ",
@@ -445,11 +476,7 @@
 			"eststo: ",
 			", ",
 			"=",
-			"P_SOC",
-			",",
-			" =",
-			"-12",
-			"*VGA"
+			"P_SOC"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -512,7 +539,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -553,11 +580,15 @@
 	{
 		"height": 250.0
 	},
-	"pinned_build_system": "",
+	"output.markdown":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -566,6 +597,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"econ",
+				"econ371.md"
+			],
+			[
+				"de",
+				"_layouts/default.html"
+			],
 			[
 				"ind",
 				"index.html"

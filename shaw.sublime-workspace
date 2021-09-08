@@ -203,6 +203,8 @@
 	],
 	"file_history":
 	[
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_old.md",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_new.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
@@ -328,13 +330,11 @@
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Python.py",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Latex.tex",
 		"/Users/Titanic/Desktop/t1.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/NESN/Dynamic_Price_Competition_with_Local_Network_Effects/NESN.sublime-workspace",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/CCSOC/Paper/CCSOC_Paper.aux",
-		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/IO_Robin/PS1/Code_Matlab/Robin_BLP.m"
+		"/Users/Titanic/Dropbox/1Res_Main_Projects/NESN/Dynamic_Price_Competition_with_Local_Network_Effects/NESN.sublime-workspace"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +349,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Students are free to analyze",
+			"+",
 			"h2",
 			"h1",
 			"<nav>",
@@ -474,9 +476,7 @@
 			"A_E",
 			"Prom.d",
 			"eststo: ",
-			", ",
-			"=",
-			"P_SOC"
+			", "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,7 +539,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -588,7 +588,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -597,6 +597,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"new",
+				"econ371_new.md"
+			],
 			[
 				"econ",
 				"econ371.md"

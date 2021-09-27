@@ -203,9 +203,9 @@
 	],
 	"file_history":
 	[
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_old.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_new.md",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/default.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/page.html",
@@ -334,7 +334,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +349,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"       ",
 			"Students are free to analyze",
 			"+",
 			"h2",
@@ -474,9 +476,7 @@
 			"x,",
 			"x",
 			"A_E",
-			"Prom.d",
-			"eststo: ",
-			", "
+			"Prom.d"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,7 +539,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -588,7 +588,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -598,12 +598,12 @@
 		"selected_items":
 		[
 			[
-				"new",
-				"econ371_new.md"
-			],
-			[
 				"econ",
 				"econ371.md"
+			],
+			[
+				"new",
+				"econ371_new.md"
 			],
 			[
 				"de",

@@ -203,8 +203,8 @@
 	],
 	"file_history":
 	[
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_old.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_new.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
@@ -334,7 +334,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +349,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"term paper",
 			"'",
 			"       ",
 			"Students are free to analyze",
@@ -475,8 +476,7 @@
 			"-11",
 			"x,",
 			"x",
-			"A_E",
-			"Prom.d"
+			"A_E"
 		],
 		"highlight": true,
 		"in_selection": false,

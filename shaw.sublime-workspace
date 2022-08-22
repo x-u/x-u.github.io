@@ -203,8 +203,8 @@
 	],
 	"file_history":
 	[
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
+		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_old.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_new.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts/teaching.html",
@@ -334,7 +334,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +349,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lei.xu2@gmail.com",
+			"contac",
 			"term paper",
 			"'",
 			"       ",
@@ -474,9 +476,7 @@
 			"df_Avg",
 			"(SO)",
 			"-11",
-			"x,",
-			"x",
-			"A_E"
+			"x,"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -524,8 +524,10 @@
 			""
 		],
 		"reverse": false,
+		"scrollbar_highlights": true,
 		"show_context": true,
 		"use_buffer2": true,
+		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
 	},
@@ -539,7 +541,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -588,7 +590,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -597,6 +599,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"index.html"
+			],
 			[
 				"econ",
 				"econ371.md"
@@ -615,10 +621,6 @@
 			],
 			[
 				"inde",
-				"index.html"
-			],
-			[
-				"index",
 				"index.html"
 			],
 			[

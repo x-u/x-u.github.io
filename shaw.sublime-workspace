@@ -600,6 +600,10 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"index.html"
+			],
+			[
 				"index",
 				"index.html"
 			],
@@ -614,10 +618,6 @@
 			[
 				"de",
 				"_layouts/default.html"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"inde",

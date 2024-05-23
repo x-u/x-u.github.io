@@ -193,16 +193,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_includes",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_layouts",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_posts",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/_site",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/assets",
-		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/static"
+		"/Users/titanic/SDrive/3Res_Others/Website/shaw"
 	],
 	"file_history":
 	[
+		"/Users/titanic/SDrive/3Res_Others/Website/shaw/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/index.html",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371.md",
 		"/Users/titanic/Dropbox/3Res_Others/Website/shaw/econ371_old.md",
@@ -329,12 +324,11 @@
 		"/Users/Titanic/Desktop/Adobe Acrobat XI Pro 11.0.0 Multilanguage Mac OS X [ChingLiu]/Crack-OSX/install.txt",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Python.py",
 		"/Users/Titanic/Dropbox/5Classes/NYU_Stern/Marketing_Bryan/HW4_Local/HW4_Latex.tex",
-		"/Users/Titanic/Desktop/t1.py",
-		"/Users/Titanic/Dropbox/1Res_Main_Projects/NESN/Dynamic_Price_Competition_with_Local_Network_Effects/NESN.sublime-workspace"
+		"/Users/Titanic/Desktop/t1.py"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -541,7 +535,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -590,7 +584,7 @@
 	"project": "shaw.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -600,11 +594,15 @@
 		"selected_items":
 		[
 			[
-				"ind",
+				"inde",
 				"index.html"
 			],
 			[
 				"index",
+				"index.html"
+			],
+			[
+				"ind",
 				"index.html"
 			],
 			[
@@ -618,10 +616,6 @@
 			[
 				"de",
 				"_layouts/default.html"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"_config",
@@ -865,19 +859,19 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "job",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Dropbox/3Res_Others/Job Market/App_CV/JM_CV.sublime-workspace"
+			],
 			[
 				"job",
 				"~/Dropbox/5Job_Market/JM.sublime-project"
 			],
 			[
 				"cc",
-				"~/Dropbox/1Res_Main_Projects/CCSOC/CCSOC.sublime-project"
-			],
-			[
-				"",
 				"~/Dropbox/1Res_Main_Projects/CCSOC/CCSOC.sublime-project"
 			]
 		],
